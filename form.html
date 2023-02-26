@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head> 
+    <body>
+        <h1> Create Account</h1>
+        <form >
+            <fieldset>
+                <legend>registration information</legend>
+            <label>firstname:</label>
+             <input type="text" name="firstname" placeholder="ten ban" required="true"/>
+            <label>lastname:</label> 
+              <input type="text" name="lastname"/>    <hr><hr>
+            <label>email:</label>      
+             <input type="text" name="email"/>
+            <label>phone</label>
+             <input type="tel" name="phone" /> <hr><hr>
+            <label>password:</label> 
+             <input type="password" name="password"/>
+            <label>confirm password:</label>
+             <input type="password" name="confirm password"/> <br>
+            </fieldset>
+            <fieldset>
+                <legend> personal information</legend>
+             <label>gender:</label>
+            <label>male</label>
+             <input type="radio" name="gender" value="male" />
+            <label>female</label>
+             <input type="radio" name="gender" value="female" /><br><br>
+            <label>hobbies:</label><label>music</label>
+             <input type="checkbox" name="h1" value="music" /><label>sports</label>
+             <input type="checkbox" name="h2" value="sports " /><label>travel</label>
+             <input type="checkbox" name="h3" value="travel" /><label>moives</label>
+             <input type="checkbox" name="h1" value="movies" /><br>
+            <label>source of incom:</label>
+            <select  >
+                <option value="employed" >employed</option>
+                <option value="unemployed" >unemployed</option>
+            </select> 
+            <label>incom:</label>
+            <input type="range" name="incom" /><br>
+            <label>Age:</label>
+            <input type="number" name="age"/> 
+            <label>profile picture:</label>
+            <input type="file" id="myfile" name="profile picture"/><br>
+            <label>Birthday:</label>
+            <input type="date" name="bod"/>
+            <label>address:</label>
+            <input type="text" name="address"/><br>
+            <label>bio:</label>
+            <input type="textarea" name="bio"/> <br><br>
+        </fieldset><br>
+        <input type="submit" name="end" value="create"/>
+            <input type="reset" name="end" value="reset"/>
+
+    </body>
+</html>
